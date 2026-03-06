@@ -31,4 +31,4 @@ registers that were used in the file are given as follows:
 The following image shows the start and end bits of UART TX line demonstrating 
 and marking it with HIGH on line 2.
 
-<img src="./images/UART_1.png">
+<img src="./images/UART_1.png" weidth="640" height="480">
