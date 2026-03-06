@@ -31,14 +31,17 @@ registers that were used in the file are given as follows:
 The following image shows the start and end bits of UART TX line demonstrating 
 and marking it with HIGH on line 2.
 
-<img src="./images/UART_1.png" weidth="640" height="480">
+<img src="./images/UART_1.png" weidth="320" height="240">
 
 The image 2 showcases how a valley is formed with LSB = 1
 
-<img src="./images/UART_2.png" weidth="640" height="480">
+<img src="./images/UART_2.png" weidth="320" height="240">
 
 The next iamge shows a complet byte transfer in an loop.
 
-<img src="./images/UART_4.png" weidth="640" height="480">
+<img src="./images/UART_4.png" weidth="320" height="240">
+
+following iamge shows the demonstartion of sending ascii byte and implementing
+printf() like function in the bare minimum pure register level coding.
 
 <img src="./images/UART_5.png" weidth="320" height="240">
