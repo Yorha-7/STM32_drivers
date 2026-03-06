@@ -40,3 +40,5 @@ The image 2 showcases how a valley is formed with LSB = 1
 The next iamge shows a complet byte transfer in an loop.
 
 <img src="./images/UART_4.png" weidth="640" height="480">
+
+<img src="./images/UART_5.png" weidth="320" height="240">
