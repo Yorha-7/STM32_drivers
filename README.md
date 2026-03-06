@@ -35,4 +35,4 @@ and marking it with HIGH on line 2.
 
 The image 2 showcases how a valley is formed with LSB = 1
 
-<img src="./images/UART_4.png" weidth="640" height="480">
+<img src="./images/UART_2.png" weidth="640" height="480">
