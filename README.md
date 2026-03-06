@@ -32,3 +32,7 @@ The following image shows the start and end bits of UART TX line demonstrating
 and marking it with HIGH on line 2.
 
 <img src="./images/UART_1.png" weidth="640" height="480">
+
+The image 2 showcases how a valley is formed with LSB = 1
+
+<img src="./images/UART_2.png" weidth="640" height="480">
