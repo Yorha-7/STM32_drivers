@@ -25,3 +25,10 @@ registers that were used in the file are given as follows:
 | USART_BRR | To set Baudrate |
 | USART_CR1 | Control register 1 |
 |---|---|
+
+## Proteus Demonstartion
+
+The following image shows the start and end bits of UART TX line demonstrating 
+and marking it with HIGH on line 2.
+
+<img src="/home/pi/STM32/images/UART_1.png">
