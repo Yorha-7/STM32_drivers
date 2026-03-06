@@ -1,9 +1,13 @@
 # STM32 Drivers
 
 # Introduction
+
 This repo contains files for stm32IDE and proteus simulation for stm32f401CB MCU.
+
 ---
+
 ## UART1 testing
+
 In my first attempt i used UART1 in its default configuration, it ran on 9600
 baudrate and with a peripheral clock of 16MHz on its AHB1 Bus and APB2 Bus.
 
