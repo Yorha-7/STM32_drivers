@@ -15,7 +15,7 @@ and Prescaler for the input clock.
 by using prescaler of 15 for input clock of 16MHz, a 1Khz 50 percent duty cycle PWM is shown
 in the figure below.
 
-<img src='./images/PWM.png' weidth='320' height-'240'>
+<img src="./images/PWM.png" weidth="320" height-"240">
 
 ## UART1 testing
 
