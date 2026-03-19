@@ -6,6 +6,17 @@ This repo contains files for stm32IDE and proteus simulation for stm32f401CB MCU
 
 ---
 
+## PWM With Timer 1
+
+In this one I utilized timer to perform PWM. API functions were coded by
+me to generate a PWM whose frequency (in Khz), Mode, Duty Cycle (in percentage),
+and Prescaler for the input clock.
+
+by using prescaler of 15 for input clock of 16MHz, a 1Khz 50 percent duty cycle PWM is shown
+in the figure below.
+
+<img src='./images/PWM.png' weidth='320' height-'240'>
+
 ## UART1 testing
 
 In my first attempt i used UART1 in its default configuration, it ran on 9600
