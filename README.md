@@ -17,6 +17,30 @@ in the figure below.
 
 <img src="./images/PWM.png" weidth="320" height="240">
 
+the signal in blue is the PWM generated signal while the yellow is the ticks 
+of the counter after it completed a tick.
+
+| API | Parameters | Functionality |
+|---|---|---|
+| clk_init | void | enables peripheral clock for GPIOA and Timer1 |
+| GPIOA_init | struct GPIO gpio | initiates gpio with provided functionality | 
+| tim1_init | sturct TIMER tim1 | initialize timer 1 wwith provided parameters |
+| compare | void | use timer1 as genmral counter |
+|---|---|
+
+| typedef struct | parameters | 
+|---|---|
+| GPIO | PIN |
+|---| AF (Alternate fuunction enable)|
+|---| MODE |
+|---| SPEED |
+| TIMER | MODE |
+|---| PSC |
+|---| DUTY_CYCLE |
+|---| FREQ |
+|---|---|
+
+
 ## UART1 testing
 
 In my first attempt i used UART1 in its default configuration, it ran on 9600
