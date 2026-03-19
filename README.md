@@ -26,7 +26,7 @@ of the counter after it completed a tick.
 | GPIOA_init | struct GPIO gpio | initiates gpio with provided functionality | 
 | tim1_init | sturct TIMER tim1 | initialize timer 1 wwith provided parameters |
 | compare | void | use timer1 as genmral counter |
-|---|---|
+|---|---|---|
 
 | typedef struct | parameters | 
 |---|---|
