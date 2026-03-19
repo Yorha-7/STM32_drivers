@@ -6,6 +6,23 @@ This repo contains files for stm32IDE and proteus simulation for stm32f401CB MCU
 
 ---
 
+## Servo Driver usig Timer 1 
+
+As before the timer was implemented, now this one is the Timer with PWM mode 
+the Timer utilised was Timer 1 and implemented on channel 1 bound to the PA8 Pin.
+The driver itself is an APi where initialization of registers and and setting
+pulse width modulation in the same. Images below shows the motor and its angle it was programmed.
+
+<img src="./images/SERVO_1.png" weidth="320" height="240"> 
+<img src="./images/SERVO_2.png" weidth="320" height="240">
+
+angles in progamme are given from 0 to 180 where as angles in the servo are observed from -90 to 90. 
+
+| Programmed | Actual |
+|---|---|
+| 120 | 29.7 |
+| 10 | -80.3 |
+
 ## PWM With Timer 1
 
 In this one I utilized timer to perform PWM. API functions were coded by
