@@ -23,6 +23,27 @@ angles in progamme are given from 0 to 180 where as angles in the servo are obse
 | 120 | 29.7 |
 | 10 | -80.3 |
 
+below is the snippet of the API used
+
+``` c
+
+void servo_init(TIMER tim1, uint32_t angle){
+
+	// Pulse Width Parameters
+	TIM1_PSC = tim1.PSC;
+	TIM1_CCMR1 |= (tim1.MODE << 4);
+	TIM1_CCMR1 |= (1 << 3);
+	TIM1_CCER |= (1 << 0);  // enables channel 1.
+	TIM1_BDTR |= (1 << 15); // Main Output Enable (only for advance timers)
+
+	TIM1_ARR = 19999;// set the value of ARR according to the frequency desired
+	TIM1_CCR1 = 20000 - (1000 + (uint32_t)(angle/0.18));
+	TIM1_CR1 |= (1 << 0);   // Enables the timer 1
+
+}
+
+```
+
 ## PWM With Timer 1
 
 In this one I utilized timer to perform PWM. API functions were coded by
