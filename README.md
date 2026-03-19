@@ -39,6 +39,10 @@ of the counter after it completed a tick.
 |   | FREQ |
 
 
+Below images shows PWM with a 20 percent duty cycle.
+
+<img src="./images/PWN2.png" weidth="320" height="240">
+
 
 ## UART1 testing
 
