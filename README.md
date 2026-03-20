@@ -12,7 +12,7 @@ in this exercise timer 2 was operated on the toggle mode. Whenever the counter r
 a diffrence in phase was observed in the waveform. which can be used for deploying 
 various sensors and transducer driver purposes. Below image shows the phase change and observed below.
 
-<img="./images/PHASE.png" weidth="320" height="240">
+<img src="./images/PHASE.png" weidth="320" height="240">
 
 ## Servo Driver usig Timer 1 
 
