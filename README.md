@@ -6,6 +6,14 @@ This repo contains files for stm32IDE and proteus simulation for stm32f401CB MCU
 
 ---
 
+## Phase shift of square wave form using toggle mode of Timer 2
+
+in this exercise timer 2 was operated on the toggle mode. Whenever the counter reaches CCRx value the gpio output is toggeld.
+a diffrence in phase was observed in the waveform. which can be used for deploying 
+various sensors and transducer driver purposes. Below image shows the phase change and observed below.
+
+<img="./images/PHASE.png" weidth="320" height="240">
+
 ## Servo Driver usig Timer 1 
 
 As before the timer was implemented, now this one is the Timer with PWM mode 
